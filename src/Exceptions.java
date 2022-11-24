@@ -10,6 +10,8 @@ public class Exceptions {
             System.out.println("The integer you entered is " + myInt + ".");
         } catch(Exception e) {
             System.out.println("I said enter an integer, bro.");
+        } finally {
+            System.out.println("Well, cool, bro.");
         }
     }
 }
